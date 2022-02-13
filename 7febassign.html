@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: aqua;
+            text-align: center;
+        }
+        form > input{
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+    
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <input type="text" placeholder="enter first name" pattern="[a-Z]" name="enter_name"><br>
+        <input type="text" placeholder="enter middle name" pattern="[a-Z]" name="enter_name"><br>
+        <input type="text" placeholder="enter last name" pattern="[a-Z]" name="enter_name"><br>
+        <input type="date" >enter date of birth<br>
+     <h3>Gender</h3>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">others  <br>
+
+        <input type="email" placeholder="enter your email id" name="Email"pattern=".+@gmail.com"><br>
+        <input type="tel" placeholder="enter your mobile number" minlength="10" maxlength="10" pattern="[6-9]{1}[0-9]{9}"><br>
+        
+        <textarea name="adress"  cols="30" rows="10" placeholder="enter your address"></textarea><br>
+        <input type="text"placeholder="enter your country"><br>
+        <input type="text"placeholder="enter your state"> <br>
+        <input type="text"placeholder="enter your district"><br>
+        <input type="number"placeholder="enter your pincode" maxlenth="6" name="pin"><br>
+       
+    
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
